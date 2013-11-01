@@ -1,23 +1,16 @@
 ---
-name: development
-summary: Example blueprint.yaml with list of parameter options
-description: This is the long description of the blueprint
-provider: vagrant
+
+summary: IAM development box with Tomcat on AWS
+description: Deploys a single IAM PoC host into AWS using CloudFormation.
+provider: aws
 parameters:
   MyParam:
     default: MyValue
     require: True
     validate: /My[\w]*/
     description: "Value of your param (should start with \"My\")"
-  DbPassword:
-    default: abc123
-    require: True
-    validate: /[\w]+/
-    description: "Database password"
-  VagrantProvider:
-    default: virtualbox
-    description: "Which Vagrant VM backend to use (either virtualbox or vmware_fusion)."
-    validate: /(virtualbox|vmware_fusion)/
+
+
 
 # PARAMETER FORMAT
 # ParamName:

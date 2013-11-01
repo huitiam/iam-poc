@@ -1,13 +1,10 @@
---- # nepho-example
-name: example
+--- 
 version: 0.0.1
 format: 1
-source: git@github.com:cloudlets/nepho-example.git
+source: git@github.com:cloudlets/iam-poc.git
 author: Harvard University Information Technology
 license: MIT
-summary: An example cloudlet that provides a base Vagrant box.
-description: >
-  This example cloudlet shows how to create and structure your own cloudlets. It
-  currently includes runnable Vagrant configuration, and may be expanded in the
-  future with other provider implementations.
+summary: PoC IAM cloudlet
+description: A proof-of-concept cloudlet for a basic IAM-reated environment in AWS.  
+
 projectpage: http://github.com/huit/nepho
