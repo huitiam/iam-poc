@@ -1,4 +1,4 @@
-single-host
+iam-poc
 ===========
 
-Cloudlet that provides a single Linux host to log in to.
+Cloudlet proof of concept.
