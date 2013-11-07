@@ -3,6 +3,7 @@
 summary: IAM development box with Tomcat on Vagrant
 description: Deploys a single IAM PoC host into Vagrant on your local machine.
 provider: vagrant
+pattern: stdlib > single-host
 parameters:
   MyParam:
     default: MyValue

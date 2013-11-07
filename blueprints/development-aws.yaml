@@ -3,6 +3,7 @@
 summary: IAM development box with Tomcat on AWS
 description: Deploys a single IAM PoC host into AWS using CloudFormation.
 provider: aws
+pattern: stdlib > single-host
 parameters:
   MyParam:
     default: MyValue
