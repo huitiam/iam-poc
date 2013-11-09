@@ -249,3 +249,14 @@ Fri Oct 25 15:46:33 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modul
 Fri Oct 25 15:46:33 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/concat/lib/facter/concat_basedir.rb
 Fri Oct 25 15:46:33 +0000 2013 Puppet (info): Applying configuration version '1382715992'
 Fri Oct 25 15:46:34 +0000 2013 Puppet (notice): Finished catalog run in 0.28 seconds
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/firewall/lib/facter/iptables_persistent_version.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/firewall/lib/facter/iptables_version.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/firewall/lib/facter/ip6tables_version.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/stdlib/lib/facter/puppet_vardir.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/stdlib/lib/facter/pe_version.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/stdlib/lib/facter/facter_dot_d.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/stdlib/lib/facter/root_home.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/epel/lib/facter/os_maj_version.rb
+Sat Nov 09 04:48:07 +0000 2013 Puppet (info): Loading facts in /etc/puppet/modules/concat/lib/facter/concat_basedir.rb
+Sat Nov 09 04:48:11 +0000 2013 Puppet (err): Must pass docroot to Apache::Vhost[localhost] at /opt/nepho/common/puppet/manifests/init.pp:8 on node localhost.belkin
+Sat Nov 09 04:48:11 +0000 2013 Puppet (err): Must pass docroot to Apache::Vhost[localhost] at /opt/nepho/common/puppet/manifests/init.pp:8 on node localhost.belkin

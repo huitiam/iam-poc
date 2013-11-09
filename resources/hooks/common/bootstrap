@@ -140,6 +140,8 @@ function install_packages() {
   echo "Installing packages"
   puppet resource package git        ensure=installed
   puppet resource package rubygems   ensure=installed
+  puppet resource package emacs   ensure=installed
+  puppet resource package tree   ensure=installed
   puppet resource package r10k       ensure=installed provider=gem
 }
 

@@ -4,3 +4,5 @@ chmod 755 /home/ec2-user/iam-poc/resources/hooks/common/*;
 cd /home/ec2-user/iam-poc/resources/hooks/common; 
 
 ./bootstrap 
+#./configure
+#./deploy
