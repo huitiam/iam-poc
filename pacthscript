@@ -1,7 +1,7 @@
 #!/bin/bash
 
-chmod 755 /home/ec2-user/iam-poc/resources/hooks/common/*; 
-cd /home/ec2-user/iam-poc/resources/hooks/common; 
+chmod 755 /opt/nepho/resources/hooks/common/*; 
+cd /opt/nepho/resources/hooks/common; 
 
 ./bootstrap 
 #./configure

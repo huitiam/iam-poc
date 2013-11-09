@@ -172,6 +172,7 @@ function populate_hiera() {
 
 function run_r10k() {
 # Use r10k to install Puppet modules
+cloudlet_data="/opt/nepho"
 if [[ -s ${cloudlet_data}/common/puppet/Puppetfile ]]; then
   echo "Running r10k to download Puppet modules"
   pushd ${cloudlet_data}/common/puppet
