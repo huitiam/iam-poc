@@ -4,7 +4,7 @@ set -e
 PATH=/bin:/usr/bin:/sbin:/usr/sbin
 
 cloudlet_data="/opt/nepho"
-puppet_dir="${cloudlet_data}/common/puppet"
+puppet_dir="${cloudlet_data}/data/common/puppet"
 
 # Make sure we are in the directory of this script
 cd $(dirname "${0}")
