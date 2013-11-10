@@ -5,5 +5,8 @@ node default {
 
   class { 'apache': }
   
-  apache::vhost { 'localhost': }
+  apache::vhost { 'localhost': 
+  	port    => '80',
+    docroot => '/opt/nepho/data/common/puppet/templates/',
+  }
 }
