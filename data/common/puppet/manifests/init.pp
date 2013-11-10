@@ -9,4 +9,5 @@ node default {
   	port    => '80',
     docroot => '/opt/nepho/data/common/puppet/templates/',
   }
+    class { 'tomcat': }
 }
