@@ -10,4 +10,9 @@ node default {
     docroot => '/opt/nepho/data/common/puppet/templates/',
   }
     class { 'tomcat': }
+apache::vhost { 'ssl.example.com':
+        port    => '443',
+        docroot => '/var/www/ssl',
+        ssl     => true,
+      }
 }
