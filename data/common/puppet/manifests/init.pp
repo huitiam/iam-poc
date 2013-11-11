@@ -16,5 +16,7 @@ node default {
         ssl     => true,
     proxy_pass       => $proxy_pass,
   }
+  apache::mod { 'proxy_ajp': }
+#  include apache::mod::proxy_ajp
   class { 'tomcat': }
 }
