@@ -5,14 +5,16 @@ node default {
 
   class { 'apache': }
   
-  apache::vhost { 'localhost': 
-  	port    => '80',
-    docroot => '/opt/nepho/data/common/puppet/templates/',
-  }
-    class { 'tomcat': }
-apache::vhost { 'ssl.example.com':
+  $proxy_pass = [
+                   { 'path' => '/castest', 'url' => 'ajp://localhost:8009/castest' }
+                 ]
+  
+
+  apache::vhost { 'ec2-54-209-26-144.compute-1.amazonaws.com':
         port    => '443',
-        docroot => '/var/www/ssl',
+        docroot => '/opt/nepho/data/common/puppet/templates/',
         ssl     => true,
-      }
+    proxy_pass       => $proxy_pass,
+  }
+  class { 'tomcat': }
 }
