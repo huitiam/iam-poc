@@ -4,5 +4,5 @@ chmod 755 /opt/nepho/resources/hooks/common/*;
 cd /opt/nepho/resources/hooks/common; 
 
 ./bootstrap 
-#./configure
-#./deploy
+./configure
+./deploy
