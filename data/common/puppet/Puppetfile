@@ -20,4 +20,5 @@ mod 'ripienaar/concat', '0.2.0'
 mod 'stahnma/epel', '0.0.5'
 
 mod 'puppetlabs/apache', '0.9.0'
+mod 'example42/puppi', '2.1.6'
 mod 'example42/tomcat', '2.1.3'
