@@ -1,7 +1,8 @@
 #!/bin/bash
 echo "Starting deployment actions"
 #cp /opt/nepho/data/common/puppet/files/mod_auth_cas.conf /etc/httpd/conf.d/
-cp /opt/nepho/data/common/puppet/files/castest.war /usr/share/tomcat6/webapps
+mkdir /usr/share/tomcat6/webapps/castest
+cp /opt/nepho/data/common/puppet/files/index.jsp /usr/share/tomcat6/webapps/castest/
 ln -s /opt/nepho/data/common/puppet/files/mod_auth_cas.conf /etc/httpd/conf.d/mod_auth_cas.conf
 mkdir /mod_auth_cas
 chown apache:apache /mod_auth_cas
